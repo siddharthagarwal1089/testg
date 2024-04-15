@@ -1,4 +1,4 @@
-## Role Variables
+# Role Variables
 Variables in defaults/main.yml:<br>
   (All these variables needs to changed accordingly) <br>
       output_path: "/tmp/health_check_report.txt" <br>
