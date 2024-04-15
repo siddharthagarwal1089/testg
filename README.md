@@ -16,16 +16,16 @@ None
 
 
 ## Example Playbook
-
----
+'''
+--- 
 - name: Databse Backup Information Automation 
   hosts: all
   gather_facts: true
   roles:
     - rol-capg-Database_backup
+'''
 
-
-## Execution Steps - IMPORTANT
+## Execution Steps
 
 Please add all the required hosts in the inventory (AWX Tower). <br>
 Inside databasebackup.yml, "hosts: all" (Therefore, add all the required hosts in the inventory) <br>
